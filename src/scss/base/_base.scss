@@ -1,18 +1,26 @@
-html {
-  text-size-adjust: 100%;
+.is-centered {
+  max-width: 100%;
+  width: 800px;
+  margin: 0 auto;
 }
 
-body {
-  font-family: $body-font-family;
-  font-size: $body-font-size;
-  font-feature-settings: 'palt';
-  font-weight: $body-font-weight;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-  line-height: $body-line-height;
-  letter-spacing: $body-spacing;
-  color: $body-font-color;
-  background-color: $light-color;
-  overflow-x: hidden;
+header {
+  text-align: center;
+  padding: 50px 0;
+
+  h1 {
+    margin-bottom: 10px;
+  }
+}
+
+.is-lg {
+  font-size: 30px;
+}
+
+.is-md {
+  font-size: 20px;
+}
+
+.is-primary {
+  color: whitesmoke;
 }
